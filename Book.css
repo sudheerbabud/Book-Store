@@ -1,0 +1,168 @@
+h2,h3,h1,h5{
+    color:red;
+}
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 15px;
+    justify-items: space-around;
+    font-weight: 700;
+}
+.navbar-nav .nav-item {
+    float: none; 
+}
+span{
+    color:mediumvioletred;
+    font-weight: bold;
+}
+.about{
+    margin-bottom: 20px;
+    border:1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
+    margin-top: 20px;
+}
+.story{
+    margin-bottom: 20px;
+    border:1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
+    margin-top: 20px;
+}
+.collections{
+    margin-bottom: 20px;
+    border:1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
+    margin-top: 20px;
+}
+.mission{
+    margin-bottom: 20px;
+    border:1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
+    margin-top: 20px;
+}
+.joinus{
+    margin-bottom: 20px;
+    border:1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    color:white;
+    background-color: rgb(29, 29, 79);
+    margin-top: 10px;
+}
+.login-form{
+    margin-bottom: 20px;
+    border:1px solid;
+    text-align:center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    margin-top: 20px;
+    
+}
+#log{
+    margin-top: 20px;
+    font-weight: bolder;
+    color: red;
+}
+#Username{
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius: 15px;
+    padding-left: 20px;
+    height:40px
+}
+#password{
+    margin-bottom:20px;
+    border-radius: 15px;
+    padding-left: 20px;
+    height:40px
+}
+#email{
+    margin-bottom:20px;
+    border-radius: 15px;
+    padding-left: 20px;
+    height:40px;
+}
+#phone-number{
+    margin-bottom:20px;
+    border-radius: 15px;
+    padding-left: 20px;
+    height:40px;
+}
+#gender{
+    margin-bottom:20px;
+    border-radius: 15px;
+    padding-left: 20px;
+    height:40px;
+    width: 204px;
+}
+#btnn{
+    width:140px;
+    border-radius: 15px;
+    height:40px;
+    margin-bottom:20px;
+}
+.logo{
+    margin:auto;
+    display: block;
+    justify-content: center;
+    align-items: center;  
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border:2px solid;
+    height:415px;
+    width:22%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin:15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+.icons a{
+    margin:0 5px 0 5px;
+}
+@media screen and (max-width: 320px) {
+    .logo{
+       
+        image-resolution:300dpi;
+  }
+}
